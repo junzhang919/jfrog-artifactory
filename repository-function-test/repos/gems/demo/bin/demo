@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'demo'
+puts MyDemo.hi(ARGV[0])

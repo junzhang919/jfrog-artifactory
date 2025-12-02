@@ -1,0 +1,118 @@
+{
+  "repos": {
+    "keys": {
+      "debian": "debian",
+      "debian-local": "debian",
+      "docker": "docker",
+      "docker-local": "docker",
+      "gems": "gems",
+      "gems-local": "gems",
+      "generic": "generic",
+      "generic-local": "generic",
+      "go": "go",
+      "go-local": "go",
+      "helm": "helm",
+      "helm-local": "helm",
+      "libs-release": "libs-release",
+      "libs-release-local": "libs-release",
+      "libs-snapshot": "libs-snapshot",
+      "libs-snapshot-local": "libs-snapshot",
+      "npm": "npm",
+      "npm-local": "npm",
+      "sbt": "sbt",
+      "sbt-local": "sbt",
+      "pypi": "pypi",
+      "pypi-local": "pypi",
+      "rpm": "rpm",
+      "rpm-local": "rpm",
+      "arm-rpm": "arm-rpm",
+      "arm-rpm-local": "arm-rpm"
+    },
+    "index": {
+      "arm-rpm": {
+        "type":    "rpm",
+        "virtual": "arm-rpm",
+        "local":   "arm-rpm-local",
+        "remote":  "arm-rpm-remote-fw",
+      },
+      "sbt": {
+        "type":    "sbt",
+        "virtual": "sbt",
+        "local":   "sbt-local",
+        "remote":  "sbt-remote-fw",
+      },
+      "debian": {
+        "type":    "debian",
+        "virtual": "debian",
+        "local":   "debian-local",
+        "remote":  "debian-remote-fw",
+      },
+      "docker": {
+        "type":    "docker",
+        "virtual": "docker",
+        "local":   "docker-local",
+        "remote":  "docker-remote-fw",
+      },
+      "gems": {
+        "type":    "gems",
+        "virtual": "gems",
+        "local":   "gems-local",
+        "remote":  "gems-remote-fw",
+      },
+      "generic": {
+        "type":    "generic",
+        "virtual": "generic",
+        "local":   "generic-local",
+        "remote":  "generic-remote-fw",
+      },
+      "go": {
+        "type":    "go",
+        "virtual": "go",
+        "local":   "go-local",
+        "remote":  "go-remote-fw",
+      },
+      "helm": {
+        "type":    "helm",
+        "virtual": "helm",
+        "local":   "helm-local",
+        "remote":  "helm-remote-fw",
+      },
+      "libs-release": {
+        "type":    "maven",
+        "virtual": "libs-release",
+        "local":   "libs-release-local",
+        "remote":  "libs-release-remote-fw",
+      },
+      "libs-snapshot": {
+        "type":    "maven",
+        "virtual": "libs-snapshot",
+        "local":   "libs-snapshot-local",
+        "remote":  "libs-snapshot-remote-fw",
+      },
+      "npm": {
+        "type":    "npm",
+        "virtual": "npm",
+        "local":   "npm-local",
+        "remote":  "npm-remote-fw",
+      },
+      "fw-npm": {
+        "type":    "npm",
+        "virtual": "fw-npm",
+        "local":   "fw-npm-local",
+        "remote":  "fw-npm-remote",
+      },
+      "pypi": {
+        "type":    "pypi",
+        "virtual": "pypi",
+        "local":   "pypi-local",
+        "remote":  "pypi-remote-fw",
+      },
+      "rpm": {
+        "type":    "rpm",
+        "virtual": "rpm",
+        "local":   "rpm-local",
+        "remote":  "rpm-remote-fw",
+      }
+    }
+  }
+}
