@@ -17,15 +17,14 @@ arti-cache-geo-beta.net.
 arti-cache-west2.net."
 
 dig_on_prem_bjo_expect="arti-cache.private-domain.akadns.net.
-arti-cache-gds.private-domain.akadns.net.
-gdsarti02.fwmrm.net."
+arti-cache-gds.private-domain.akadns.net."
 
 dig_on_prem_us_west_expect="arti-cache.private-domain.akadns.net.
-arti-ha-tcp-ab252bd450cd80aa.elb.us-east-1.amazonaws.com.
+arti-ha-tcp-abc.elb.us-east-1.amazonaws.com.
 "
 
 dig_on_prem_eu_expect="arti-cache.private-domain.akadns.net.
-arti-ha-tcp-ab252bd450cd80aa.elb.us-east-1.amazonaws.com.
+arti-ha-tcp-abc.elb.us-east-1.amazonaws.com.
 "
 
 dig_aws_sgp_1_expect="arti-cache.private-domain.akadns.net.
@@ -34,7 +33,7 @@ arti-cache.apse1.net.
 "
 
 dig_aws_primary_expect="arti-cache.private-domain.akadns.net.
-arti-ha-tcp-ab252bd450cd80aa.elb.us-east-1.amazonaws.com.
+arti-ha-tcp-abc.elb.us-east-1.amazonaws.com.
 "
 
 dig_res=$(dig arti-cache.private-domain +short |grep "$dig_expect")

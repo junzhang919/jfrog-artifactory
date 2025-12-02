@@ -26,7 +26,7 @@ def list_folders(repo_path):
 
 def get_folder_info(repo_name, node_path):
     config = {
-        'host': 'artifactory-db-ha-us-east-1c.cjikxm0wbxvy.us-east-1.rds.amazonaws.com',
+        'host': 'artifactory-db-ha.us-east-1.rds.amazonaws.com',
         'user': 'artifactory',
         'password': '920e3006a969c53144d2b3fbafe5a646',
         'database': 'artifactory'
